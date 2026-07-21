@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TinyWin Privacy Policy — a private, local-first ADHD habit tracker. No accounts, no tracking, no data collection.">
+    <title>Privacy Policy — TinyWin</title>
+    <style>
+        :root {
+            --sage: #8AA789;
+            --sage-dark: #6E8B6D;
+            --sage-soft: #E4EDE3;
+            --cream: #F9F7F3;
+            --cream-dark: #EFEBE3;
+            --ink: #2C2C2C;
+            --ink-soft: #5A5A5A;
+            --border: rgba(44, 44, 44, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 100%);
+            color: var(--ink);
+            line-height: 1.65;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px 120px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 72px;
+            background: var(--sage-soft);
+            border-radius: 20px;
+            margin-bottom: 24px;
+        }
+
+        .logo svg {
+            width: 40px;
+            height: 40px;
+            color: var(--sage-dark);
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+        }
+
+        .last-updated {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 6px 14px;
+            background: rgba(138, 167, 137, 0.15);
+            color: var(--sage-dark);
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .tldr {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 28px 30px;
+            margin-bottom: 48px;
+        }
+
+        .tldr h2 {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--sage-dark);
+            margin-bottom: 14px;
+        }
+
+        .tldr p {
+            font-size: 1.08rem;
+            color: var(--ink);
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            margin-bottom: 16px;
+            color: var(--ink);
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 8px;
+            color: var(--ink);
+        }
+
+        p, li {
+            color: var(--ink-soft);
+            font-size: 1rem;
+        }
+
+        p {
+            margin-bottom: 14px;
+        }
+
+        ul {
+            padding-left: 22px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--sage-dark);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(110, 139, 109, 0.3);
+            transition: border-color 0.15s ease;
+        }
+
+        a:hover {
+            border-bottom-color: var(--sage-dark);
+        }
+
+        .callout {
+            background: white;
+            border-left: 3px solid var(--sage);
+            border-radius: 4px;
+            padding: 18px 22px;
+            margin: 20px 0;
+        }
+
+        .callout p {
+            margin: 0;
+            color: var(--ink);
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--ink-soft);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px 80px;
+            }
+            h1 {
+                font-size: 1.9rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .tldr {
+                padding: 22px 24px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --cream: #1C1B18;
+                --cream-dark: #141311;
+                --ink: #F0EEE9;
+                --ink-soft: #A8A5A0;
+                --border: rgba(240, 238, 233, 0.1);
+                --sage-soft: rgba(138, 167, 137, 0.18);
+            }
+            .tldr, .callout {
+                background: rgba(240, 238, 233, 0.04);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 21c0-6 5-15 15-15-1 8-5 15-15 15"/>
+                    <path d="M6 21c0-4 2-8 6-11"/>
+                </svg>
+            </div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">TinyWin — Gentle Habit Tracker</p>
+            <span class="last-updated">Last updated: July 21, 2026</span>
+        </header>
+
+        <div class="tldr">
+            <h2>The short version</h2>
+            <p>TinyWin doesn't collect your data. There are no accounts, no logins, no analytics, and no third-party tracking. Your habits stay on your device. If you turn on iCloud, syncing happens privately through your own Apple iCloud — we never see it.</p>
+        </div>
+
+        <section>
+            <h2>1. Who we are</h2>
+            <p>TinyWin ("the app", "we", "us") is a habit tracker for iPhone and iPad, designed to be private and local-first. This policy explains how the app handles your information.</p>
+        </section>
+
+        <section>
+            <h2>2. Data we collect</h2>
+            <p><strong>None.</strong> TinyWin does not collect, store, sell, share, or transmit any personal information to us or to any third party.</p>
+
+            <h3>Habits, entries, and reflections</h3>
+            <p>The habits you create, the days you mark done, and any reflection notes or moods you record are stored entirely on your device using Apple's SwiftData framework. We never see this content.</p>
+
+            <div class="callout">
+                <p><strong>No login. No account. No email required.</strong> You can install and use TinyWin without providing any personal information at all.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. iCloud sync (optional)</h2>
+            <p>If you are signed in to iCloud on your device and you allow it in iOS Settings, TinyWin uses Apple's CloudKit to sync your habits privately across your own Apple devices.</p>
+            <ul>
+                <li>The sync happens directly between your device and your personal iCloud account.</li>
+                <li>Your data is stored in your own private iCloud database — not on any TinyWin server.</li>
+                <li>We do not have access to your iCloud data at any time.</li>
+                <li>You can disable sync anytime via iOS Settings → your name → iCloud → Apps Using iCloud → TinyWin.</li>
+            </ul>
+            <p>Apple's iCloud handling is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+        </section>
+
+        <section>
+            <h2>4. Notifications</h2>
+            <p>TinyWin schedules reminders through Apple's local UserNotifications framework. These notifications are generated and delivered entirely on your device — they never leave it. No push notification server is involved. You can turn reminders off anytime in iOS Settings or from within the app.</p>
+        </section>
+
+        <section>
+            <h2>5. In-App Purchase</h2>
+            <p>TinyWin offers a one-time in-app purchase called "Unlimited Habits" that removes the free-plan limit. This purchase is processed by Apple's StoreKit and is subject to Apple's terms.</p>
+            <ul>
+                <li>We do not see, receive, or store your payment information.</li>
+                <li>Apple provides us with anonymized transaction identifiers only to verify your purchase on your own devices.</li>
+                <li>Refunds and payment support are handled by Apple. See <a href="https://support.apple.com/HT204084" target="_blank" rel="noopener">Apple's refund policy</a>.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Third-party services</h2>
+            <p>TinyWin contains <strong>no third-party analytics, tracking, advertising, or crash-reporting SDKs</strong>. There are no Google, Facebook, or ad-network trackers of any kind. The only external service the app can communicate with is Apple's iCloud, and only if you have enabled it yourself.</p>
+        </section>
+
+        <section>
+            <h2>7. Data you can export or delete</h2>
+            <p>Because your data lives on your device, you are in complete control:</p>
+            <ul>
+                <li><strong>Export</strong>: In Settings → Your data, you can export all habits and history as JSON or CSV at any time.</li>
+                <li><strong>Delete individual habits</strong>: Remove them from the Today or Progress screens.</li>
+                <li><strong>Delete everything</strong>: In Settings → "Delete all data" erases every habit and entry from your device (and iCloud, if sync is on).</li>
+                <li><strong>Uninstall</strong>: Deleting the app removes all local data. If iCloud sync is enabled, syncing stops immediately.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Children's privacy</h2>
+            <p>TinyWin does not knowingly collect any information from anyone — including children under 13. Because we collect nothing from anyone, no age-based data-collection rules apply. The app is rated 4+ on the App Store.</p>
+        </section>
+
+        <section>
+            <h2>9. Data retention</h2>
+            <p>Your data is retained on your device (and, if enabled, in your iCloud) for as long as you choose to keep it. We do not retain anything on our servers, because we do not operate any servers that receive your data.</p>
+        </section>
+
+        <section>
+            <h2>10. Security</h2>
+            <p>Because data never leaves your device (or your personal iCloud), TinyWin inherits the security guarantees of Apple's platforms: on-device encryption, iOS sandboxing, and end-to-end encryption for CloudKit private databases. We recommend keeping iOS up to date and using a device passcode.</p>
+        </section>
+
+        <section>
+            <h2>11. Changes to this policy</h2>
+            <p>If we ever change this privacy policy, we will update the "Last updated" date at the top and, if the change is material, mention it in the app's release notes. If we ever add any form of data collection or third-party service, we will disclose it prominently in advance and require your explicit opt-in.</p>
+        </section>
+
+        <section>
+            <h2>12. Contact</h2>
+            <p>If you have any questions about this policy or how TinyWin handles your data, please reach out:</p>
+            <ul>
+                <li>Email: <a href="mailto:souravmishra9693@gmail.com">souravmishra9693@gmail.com</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>13. Governing law</h2>
+            <p>This policy is governed by the laws of India. Any disputes will be subject to the exclusive jurisdiction of the courts of India.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 TinyWin. All rights reserved.</p>
+            <a href="mailto:souravmishra9693@gmail.com">Contact us</a>
+        </footer>
+    </div>
+</body>
+</html>
